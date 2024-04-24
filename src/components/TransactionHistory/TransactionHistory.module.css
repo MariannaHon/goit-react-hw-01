@@ -1,5 +1,5 @@
 
-.transaction-table {
+.table {
     width: 800px;
     display: flex;
     flex-direction: column;
@@ -8,43 +8,43 @@
     margin: 0 auto;
 }
 
-.transaction-head-wrapper {
+.headWrapper {
     width: 100%;
     background-color: #333333;
 }
 
-.transaction-head {
+.head {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.transaction-head-item {
+.headItem {
     color: #fff;
     border: 1px solid #000;
     width: 100%;
     padding: 6px 0;
 }
 
-.transaction-body-wrapper {
+.bodyWrapper {
     width: 100%;
     background-color: #fafafa;
 }
 
-.transaction-body {
+.body {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around;
 }
 
-.transaction-body-item {
+.bodyItem {
     text-align: start;
     border: 1px solid #000;
     width: 100%;
     padding: 6px 70px;
 }
 
-.transaction-body:nth-child(2n+2) {
+.body:nth-child(2n+2) {
     background-color: #a3a3a3;
 }

@@ -1,18 +1,18 @@
 
-.friend-picture {
+.picture {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.friend-name {
+.name {
     font-size: 28px;
     font-weight: 600;
 }
 
-.is-online {
+.online {
     color: green;
 }
 
-.is-offline {
+.offline {
     color: red;
 }
